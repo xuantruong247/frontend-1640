@@ -1,10 +1,10 @@
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import IdeaPage from "../Pages/IdeaPage";
-import SubmissionPage from "../Pages/SubmissionPage";
-import ContactPage from "../Pages/ContactPage";
+import IdeaPage from "../Pages/IdeaPage/IdeaPage";
+import SubmissionPage from "../Pages/SubmissionPage/SubmissionPage";
+import ContactPage from "../Pages/ContactPage/ContactPage";
 import LoginPage from "../Pages/LoginPage";
-import Home from './../Pages/HomePage';
+import Home from '../Pages/HomePage/HomePage';
 
 const Routers = () => {
   return (

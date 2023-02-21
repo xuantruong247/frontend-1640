@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="py-6 bg-black text-white">
       <div className="container px-6 mx-auto ">
         <div className="grid grid-cols-12">
-          <NavLink className="pb-6 col-span-full md:pb-0 md:col-span-6 text-3xl no-underline text-white pt-20">
+          <NavLink to="/" className="pb-6 col-span-full md:pb-0 md:col-span-6 text-3xl no-underline text-white pt-20">
             CMS GREENWICH
           </NavLink>
 
