@@ -11,7 +11,7 @@ const Header = () => {
     };
   };
   return (
-    <header className="p-4 dark:bg-gray-800 dark:text-gray-100">
+    <header className="p-4">
       <div className="container flex justify-between h-16 mx-auto">
         <a
           href="/"
@@ -41,7 +41,7 @@ const Header = () => {
               style={navLinkStyles}
               className="flex items-center px-4 text-black no-underline text-lg pt-2"
             >
-              idea
+              Idea
             </NavLink>
           </li>
           <li className="flex">

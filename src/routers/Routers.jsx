@@ -3,8 +3,8 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import IdeaPage from "../Pages/IdeaPage/IdeaPage";
 import SubmissionPage from "../Pages/SubmissionPage/SubmissionPage";
 import ContactPage from "../Pages/ContactPage/ContactPage";
-import LoginPage from "../Pages/LoginPage";
 import Home from '../Pages/HomePage/HomePage';
+import LoginPage from './../Pages/LoginPage/LoginPage';
 
 const Routers = () => {
   return (
