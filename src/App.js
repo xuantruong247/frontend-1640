@@ -1,23 +1,9 @@
-import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
-import Register from './components/Register';
-import Dealine from './components/Dealine';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Routes, Route } from 'react-router-dom';
-
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Layou from "./components/Layou/Layou";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/dealine' element={<Dealine />} />
-      </Routes>
-    </>
-  );
+  return <Layou />;
 }
 
 export default App;
