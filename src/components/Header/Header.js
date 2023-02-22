@@ -24,7 +24,7 @@ const Header = () => {
             fontWeight: "600",
           }}
         >
-          CMS GREENWICH
+          IDEA GREENWICH
         </a>
         <ul className="space-x-3 flex items-center">
           <li className="flex">
@@ -70,6 +70,7 @@ const Header = () => {
               src={logoUser}
               alt="user"
             />
+            
           </button>
         </ul>
       </div>

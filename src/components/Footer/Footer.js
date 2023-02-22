@@ -7,29 +7,31 @@ const Footer = () => {
     <footer className="py-6 bg-black text-white">
       <div className="container px-6 mx-auto ">
         <div className="grid grid-cols-12">
-          <NavLink to="/" className="pb-6 col-span-full md:pb-0 md:col-span-6 text-3xl no-underline text-white pt-20">
-            CMS GREENWICH
+          <NavLink
+            to="/"
+            className="pb-6 col-span-full md:pb-0 md:col-span-6 text-3xl no-underline text-white pt-24"
+          >
+            IDEA GREENWICH
           </NavLink>
 
           <div className=" col-span-6 md:text-left md:col-span-3">
             <p className="pb-1 text-lg font-medium pl-8 text-red-600">
-              GreenWich Việt Nam
+              GreenWich Viet Nam
             </p>
             <ul>
               <li>
                 <p className="text-white no-underline text-lg">
-                  Số 20 Cộng Hoà, Phường 12, Quận Tân Bình, Thành Phố Hồ Chí
-                  Minh
+                  No. 20 Cong Hoa, Ward 12, Tan Binh District, Ho Chi Minh City
                 </p>
               </li>
               <li>
                 <p to="/idea" className="text-white no-underline text-lg">
-                  Hotline: 0933.108.554
+                  Hotline: 028.7300.2266
                 </p>
               </li>
               <li>
                 <p to="/submision" className="text-white no-underline text-lg">
-                  Điện thoại: 028.7300.2266
+                  Phone: 0933.108.554
                 </p>
               </li>
               <li>
@@ -46,14 +48,20 @@ const Footer = () => {
             </p>
             <ul>
               <li>
-                <NavLink to="/" className="text-white no-underline text-lg flex">
-                <AiOutlineRight className="pt-2 text-red-500"/>
+                <NavLink
+                  to="/"
+                  className="text-white no-underline text-lg flex"
+                >
+                  <AiOutlineRight className="pt-2 text-red-500" />
                   <p>Home</p>
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/idea" className="text-white no-underline text-lg flex">
-                <AiOutlineRight className="pt-2 text-red-500"/>
+                <NavLink
+                  to="/idea"
+                  className="text-white no-underline text-lg flex"
+                >
+                  <AiOutlineRight className="pt-2 text-red-500" />
                   <p>Idea</p>
                 </NavLink>
               </li>
@@ -62,7 +70,7 @@ const Footer = () => {
                   to="/submision"
                   className="text-white no-underline text-lg flex"
                 >
-                  <AiOutlineRight className="pt-2 text-red-500"/>
+                  <AiOutlineRight className="pt-2 text-red-500" />
                   <p>Submission</p>
                 </NavLink>
               </li>
@@ -71,7 +79,7 @@ const Footer = () => {
                   to="/contact"
                   className="text-white no-underline text-lg flex"
                 >
-                  <AiOutlineRight className="pt-2 text-red-500"/>
+                  <AiOutlineRight className="pt-2 text-red-500" />
                   <p>Contact</p>
                 </NavLink>
               </li>
