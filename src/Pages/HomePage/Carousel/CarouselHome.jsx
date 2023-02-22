@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
 const CarouselHome = () => {
@@ -21,9 +22,11 @@ const CarouselHome = () => {
         <p className="">
           We are a team of talented designers making websites with my team.
         </p>
+        <NavLink to='/login'>
         <button type="button" class="btn btn-danger">
           Get Started!
         </button>
+        </NavLink>
       </div>
     </div>
   );

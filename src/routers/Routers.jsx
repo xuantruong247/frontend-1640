@@ -3,8 +3,10 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import IdeaPage from "../Pages/IdeaPage/IdeaPage";
 import SubmissionPage from "../Pages/SubmissionPage/SubmissionPage";
 import ContactPage from "../Pages/ContactPage/ContactPage";
-import Home from '../Pages/HomePage/HomePage';
-import LoginPage from './../Pages/LoginPage/LoginPage';
+import Home from "../Pages/HomePage/HomePage";
+import LoginPage from "./../Pages/LoginPage/LoginPage";
+import DetailSub from "../Pages/SubmissionPage/detail/DetailSub";
+import DetailIdea from "../Pages/IdeaPage/detail/DetailIdea";
 
 const Routers = () => {
   return (
@@ -15,6 +17,8 @@ const Routers = () => {
       <Route path="submission" element={<SubmissionPage />} />
       <Route path="contact" element={<ContactPage />} />
       <Route path="login" element={<LoginPage />} />
+      <Route path="detailsub" element={<DetailSub />} />
+      <Route path="detailidea" element={<DetailIdea />} />
     </Routes>
   );
 };

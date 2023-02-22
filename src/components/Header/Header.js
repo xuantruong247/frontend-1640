@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logoUser from "../../asset/img/logo-User.webp";
 import { motion } from "framer-motion";
+import Search from "../Search/Search";
 
 const Header = () => {
   const navLinkStyles = ({ isActive }) => {
@@ -11,7 +12,7 @@ const Header = () => {
     };
   };
   return (
-    <header className="p-4">
+    <header>
       <div className="container flex justify-between h-16 mx-auto">
         <a
           href="/"
@@ -72,6 +73,9 @@ const Header = () => {
           </button>
         </ul>
       </div>
+      <hr />
+      <Search />
+      <hr />
     </header>
   );
 };
