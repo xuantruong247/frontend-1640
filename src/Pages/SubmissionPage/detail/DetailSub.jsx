@@ -18,8 +18,8 @@ function DetailSub() {
             <p>12 - 03 - 2023 & 11:59 PM</p>
           </div>
         </div>
-        <NavLink>
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <NavLink to='/addIdea'>
+          <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
             Add Idea
           </button>
         </NavLink>
